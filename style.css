@@ -3,7 +3,7 @@ html{
     -webkit-text-size-adjust: 100%;
 }
 body {
-    background: black;
+    background: url(./tainguyen/anh3.jpg);
     height: 100vh;
     width: 100vw;
     /*Chữ mặc định thiết bị System Fonts as used by Medium and WordPress */
@@ -41,7 +41,7 @@ body {
     font-size: 550%;
     text-align: center;
     color: transparent;
-    background: linear-gradient(90deg, red, yellow, green, cyan, blue, violet);
+    background: linear-gradient(90deg,rgb(255, 255, 255),magenta, rgb(111, 240, 235), rgb(97, 199, 97), rgb(167, 167, 240), magenta);
     background-size: 400% 400%;
     color: transparent;
     -webkit-background-clip: text;
@@ -65,21 +65,21 @@ body {
     text-decoration: none;
     text-align: center;
     margin-top: 1.5%;
-    border: 1rem double greenyellow;
-    background-color: black;
+    border: 1rem double rgb(235, 124, 248);
+    background-color: rgb(0, 0, 0);
     border-radius: 99.9rem;
-    box-shadow: 0rem 0rem 3rem azure;
+    box-shadow: 0rem 0rem 3rem rgb(255, 255, 255);
     margin-left: 36vw;
 }
 .fa-solid{
-    color: aqua;
+    color: rgb(0, 221, 255);
     width: 3vw;
     height: 3vh;
     font-size: 3rem;
     margin-right: 1rem;
 }
 .fa-solid:hover{
-    color: gold;
+    color: rgb(153, 0, 255);
     font-size: 4rem;
 }
 .fa-solid:active{
@@ -135,7 +135,7 @@ body {
     font-size: 420%;
     user-select: none;
     color: transparent;
-    background: linear-gradient(90deg, red, yellow, green, cyan, blue, violet);
+    background: linear-gradient(90deg, rgb(255, 255, 255),magenta, rgb(111, 240, 235), rgb(97, 199, 97), rgb(167, 167, 240), magenta);
     background-size: 400% 400%;
     color: transparent;
     -webkit-background-clip: text;
@@ -186,13 +186,13 @@ body {
     margin-left: 12vw;
 }
 .p_0{
-    border: 0.5rem solid aqua;
+    border: 0.5rem solid rgb(159, 107, 237);
     margin: 2rem;
     border-radius: 99.9rem;
     width: 50%;
     height: 15%;
     padding-top: 1rem;
-    box-shadow: -1rem 0rem 2rem silver;
+    box-shadow: -2rem 0rem 2rem rgba(241, 147, 243, 0.8);
 }
 .p_0:hover{
     background-color: pink;
@@ -200,13 +200,13 @@ body {
     box-shadow: 0 0 0 ;
 }
 .p_1{
-    border: 0.5rem solid aqua;
+    border: 0.5rem solid rgb(159, 107, 237);
     margin: 2rem;
     border-radius: 99.9rem;
     width: 50%;
     height: 15%;
     padding-top: 1rem;
-    box-shadow: 2rem 0rem 2rem silver;
+    box-shadow: 2rem 0rem 2rem rgba(241, 147, 243, 0.8);
 }
 .p_1:hover{
     background-color: cyan;
@@ -229,19 +229,22 @@ body {
 }
 .clock1 {
     display:block;
-    background: black;
+    background: rgba(255, 255, 255,  );
     padding: 1rem;
     border-radius: 12px;
-    box-shadow: 0rem 0rem 2rem red;
+    box-shadow: 10px 10px 20px rgba(241, 147, 243, 0.8);
     text-align: center;
     width: 18rem;
     height: 8rem;
     margin-top: -60vh;
-    margin-left: 13vw;}
+    margin-left: 13vw;
+    border-color: magenta;
+    
+}
 .time1 {
     font-size: 4rem;
     font-weight: bold;
-    color: aliceblue;
+    color: rgb(86, 200, 239);
 }
 .date1 {
     font-size: 2.4rem;
@@ -278,8 +281,8 @@ body {
         display: none;
     }
     .clock {
-        background: black;
-        box-shadow: 0rem 0rem 2rem rgb(123, 247, 101);
+        background:rgba(0, 0, 0, 0.5);
+        box-shadow: 0rem 0rem 2rem rgb(184, 109, 238);
         text-align: center;
         width: 25%;
         height: 97%;
@@ -307,8 +310,8 @@ body {
         text-decoration: none;
         text-align: center;
         margin-top: 7%;
-        border: 1rem double greenyellow;
-        background-color: black;
+        border: 1rem double rgb(235, 187, 255);
+        background-color: :rgba(0,0,0, 1);
         border-radius: 99.9rem;
         box-shadow: 0rem 0rem 3rem azure;
         margin-left: 7.7vw;
@@ -340,7 +343,7 @@ body {
         border-radius: 99.9rem;
         width: 20vw;
         height: 20vh;
-        background-color: black;
+        background-color: rgb(0, 0, 0);
         color: snow;
         /* border: 0.2rem groove white; */
         text-align: center;
@@ -349,12 +352,12 @@ body {
         user-select: none;
         color: rgb(62, 252, 125);
         color: transparent;
-        background: linear-gradient(120deg, blue,magenta,green, white);
+        background: linear-gradient(120deg, rgb(255, 239, 134),rgb(254, 156, 254),rgb(92, 250, 92), white);
         background-size: 400% 400%;
         color: transparent;
         -webkit-background-clip: text;
         animation: colorChange 5s ease infinite;
-
+       
     }
     .box1{
         display: none;
@@ -368,7 +371,7 @@ body {
         margin-left: 16%;
         margin-top: 13%;
         padding-top: 5%;
-        box-shadow:inset 0rem 0rem 2rem black;
+        box-shadow: 0 0 2rem magenta;
     }
     
     .box2 {
@@ -379,7 +382,8 @@ body {
         padding-bottom: 1%;
         margin-left: 15%;
         margin-top: 6%;
-        box-shadow:inset 0rem 0rem 3rem black;
+        box-shadow: 0 0 2rem magenta;
+        
     }
     
     .box3 {
@@ -390,13 +394,14 @@ body {
         padding-bottom: 1%;
         margin-left: 50%;
         margin-top: -10%;
-        box-shadow:inset 0rem 0rem 2rem black;
+        box-shadow: 0 0 2rem magenta;
+        
     }
     .box4{
         width: 49%;
         height: 50vh;
         color: transparent;
-        background: linear-gradient(90deg, red, black, green, yellow, blue, white);
+        background: linear-gradient(90deg, rgb(252, 248, 248), rgb(111, 240, 235), rgb(162, 238, 162), yellow, rgb(167, 167, 240));
         background-size: 400% 400%;
         color: transparent;
         -webkit-background-clip: text;
@@ -416,22 +421,24 @@ body {
         width: 65%;
         height: 5%;
         padding-bottom: 0.8rem;
-        box-shadow: -1rem 1rem 2rem black;
+        box-shadow: 0 0 2rem magenta;
+
     }
     .p_0:hover{
-        background-color: pink;
+        background-color: rgb(118, 214, 111);
         color: black;
         box-shadow: 0 0 0 ;
     }
     .p_1{
         user-select: none;
-        border: 0.2rem solid black;
+        border: 0.2rem solid rgb(137, 122, 122);
         margin: 2.5rem;
         border-radius: 99.9rem;
         width: 65%;
         height: 5%;
         padding-bottom: 0.8rem;
-        box-shadow: 1rem 1rem 2rem black;
+        box-shadow: 0 0 2rem magenta;
+
     }
     .p_1:hover{
         background-color: cyan;
@@ -443,7 +450,7 @@ body {
         width: 49%;
         height: 50vh;
         color: transparent;
-        background: linear-gradient(90deg, red, black, green, yellow, blue, white);
+        background: linear-gradient(90deg, rgb(252, 248, 248), rgb(111, 240, 235), rgb(162, 238, 162), yellow, rgb(167, 167, 240), white);
         background-size: 400% 400%;
         color: transparent;
         -webkit-background-clip: text;
