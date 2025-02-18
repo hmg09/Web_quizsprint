@@ -91,6 +91,7 @@
     gap: 1rem;
     margin-top: 3rem;
     user-select: none;
+    
   }
 
   .font {
@@ -119,10 +120,17 @@
     font-weight: bold;
     text-align: center;
     width: 120px;
+   
   }
 
   .btn:hover {
     transform: translateY(-5px);
     box-shadow: 0 10px 20px rgba(255, 105, 180, 0.6);
     transition: all 0.3s ease;
+  }
+
+
+
+  .a {
+    text-decoration: none !important;
   }
