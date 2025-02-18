@@ -228,6 +228,7 @@ body {
     display: none;
 }
 .clock1 {
+    user-select: none;
     display:block;
     background: rgba(255, 255, 255,  );
     padding: 1rem;
@@ -242,11 +243,13 @@ body {
     
 }
 .time1 {
+    user-select: none;
     font-size: 4rem;
     font-weight: bold;
     color: rgb(86, 200, 239);
 }
 .date1 {
+    user-select: none;
     font-size: 2.4rem;
     margin-top: 10px;
     color: aquamarine;
@@ -281,6 +284,7 @@ body {
         display: none;
     }
     .clock {
+        user-select: none;
         background:rgba(0, 0, 0, 0.5);
         box-shadow: 0rem 0rem 2rem rgb(184, 109, 238);
         text-align: center;
@@ -293,6 +297,7 @@ body {
     }
     
     .time {
+        user-select: none;
         font-size: 1rem;
         font-weight: bold;
         color: aliceblue;
@@ -300,6 +305,7 @@ body {
         padding-top: 1rem;
     }
     .date {
+        user-select: none;
         font-size: 0.6rem;
         color: aquamarine;
     }
