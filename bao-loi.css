@@ -1,0 +1,41 @@
+.background-section {
+  background-image: url(../QuizSprint-PKH_HQT/tainguyen/anhmeme.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 100vh; /* Điều chỉnh theo chiều cao màn hình */
+}
+
+.h1 {
+  text-align: center;
+  border: 0.4rem solid red; /* Đã sửa cú pháp */
+  text-decoration: none;
+  user-select: none;
+  border-radius: 50px;
+  background-color: rgb(255, 255, 255);
+  width: 50%; /* Tăng kích thước trên màn hình nhỏ */
+  color: rgb(255, 0, 0);
+  margin: 20px auto; /* Canh giữa */
+  padding: 12px;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -45%;
+  box-shadow: 0.5rem 0.5rem 1rem red;
+}
+
+/* Tối ưu cho điện thoại */
+@media (max-width: 600px) {
+  .background-section {
+    height: 80vh; /* Giảm chiều cao */
+  }
+
+  .h1 {
+    width: 90%;
+    font-size: 1rem;
+    padding: 15px;
+    margin-top: 10%;
+  }
+}
